@@ -1,19 +1,19 @@
-body{
+body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: rgb(25, 25, 25);
     color: white;
 }
 
-.title{
+.title {
     font-size: 30px;
     font-weight: bold;
 }
 
-.move-icon{
+.move-icon {
     width: 50px;
 }
 
-.move-button{
+.move-button {
     width: 120px;
     height: 120px;
     background-color: transparent;
@@ -24,20 +24,21 @@ body{
     margin-bottom: 25px;
 }
 
-.move-button:hover{
-    box-shadow:  0px 0px 5px white;
+.move-button:hover {
+    box-shadow: 0px 0px 5px white;
 }
 
-.resultElem{
+.resultElem {
     font-size: 25px;
     font-weight: bold;
 }
 
-.moveElem{
+.moveElem {
     margin-bottom: 60px;
 }
 
-.reset-button{
+.reset-button,
+.autoplay-button {
     font-size: 15px;
     background-color: white;
     border: none;
@@ -46,6 +47,6 @@ body{
     cursor: pointer;
 }
 
-.reset-button:hover{
-    box-shadow:  0px 0px 5px white;
+:where(.reset-button, .autoplay-button):hover {
+    box-shadow: 0px 0px 5px white;
 }
